@@ -1,0 +1,115 @@
+/********** Template CSS **********/
+:root {
+    --secondary: #EDDD5E;
+    --light: #F7F7F7;
+}
+
+
+h1,
+h2,
+.h1,
+.h2,
+.fw-bold {
+    font-weight: 700 !important;
+    font-family: "Libre Baskerville", serif;
+    color: var(--light);
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+
+h3,
+h4,
+.h3,
+.h4,
+.fw-medium {
+    font-weight: 900 !important;
+    color: #fff4e6;
+    padding-top: 1rem;
+}
+
+h5,
+h6,
+.h5,
+.h6,
+.fw-semi-bold {
+    font-weight: 500 !important;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--light);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary) !important;
+}
+
+.container {
+    background-image: url(../img/a.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: initial;
+}
+
+.icon {
+    padding-top: 4rem;
+    font-size: 2rem;
+}
+
+.icon img {
+    width: 10rem;
+}
+
+.text-center {
+    text-align: center;
+    justify-content: center;
+}
+
+.box1 {
+    background-color: aliceblue;
+    padding: 5rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.row {
+    width: 41rem;
+margin-left: 14rem;
+padding-top: 3rem;
+
+}
+
+.card-1 input {
+    width: 7rem;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 6rem;
+    background-color: var(--secondary);
+}
+
+.button {
+    text-align: center;
+    justify-content: center;
+    margin-left: 16rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.btn1 {
+    margin-left: 9rem !important;
+}
+
+.fill-btn {
+    margin-left: 18rem !important;
+}
+
+.tittle {
+    color: var(--light);
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.card {
+    border: 1px solid black !important;
+}
